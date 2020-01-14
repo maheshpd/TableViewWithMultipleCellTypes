@@ -13,6 +13,8 @@
 		011ADE0923CD87440049DC10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011ADE0723CD87440049DC10 /* Main.storyboard */; };
 		011ADE0B23CD874A0049DC10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011ADE0A23CD874A0049DC10 /* Assets.xcassets */; };
 		011ADE0E23CD874A0049DC10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011ADE0C23CD874A0049DC10 /* LaunchScreen.storyboard */; };
+		011ADE1623CD87FA0049DC10 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011ADE1523CD87FA0049DC10 /* Profile.swift */; };
+		011ADE1823CD90DC0049DC10 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011ADE1723CD90DC0049DC10 /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		011ADE0A23CD874A0049DC10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		011ADE0D23CD874A0049DC10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011ADE0F23CD874A0049DC10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011ADE1523CD87FA0049DC10 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		011ADE1723CD90DC0049DC10 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				011ADE0A23CD874A0049DC10 /* Assets.xcassets */,
 				011ADE0C23CD874A0049DC10 /* LaunchScreen.storyboard */,
 				011ADE0F23CD874A0049DC10 /* Info.plist */,
+				011ADE1523CD87FA0049DC10 /* Profile.swift */,
+				011ADE1723CD90DC0049DC10 /* ProfileViewModel.swift */,
 			);
 			path = TableViewWithMultipleCellTypes;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				011ADE0623CD87440049DC10 /* ViewController.swift in Sources */,
+				011ADE1623CD87FA0049DC10 /* Profile.swift in Sources */,
 				011ADE0223CD87440049DC10 /* AppDelegate.swift in Sources */,
 				011ADE0423CD87440049DC10 /* SceneDelegate.swift in Sources */,
+				011ADE1823CD90DC0049DC10 /* ProfileViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC249Z4L24;
 				INFOPLIST_FILE = TableViewWithMultipleCellTypes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ida.First-Project.TableViewWithMultipleCellTypes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC249Z4L24;
 				INFOPLIST_FILE = TableViewWithMultipleCellTypes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ida.First-Project.TableViewWithMultipleCellTypes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
